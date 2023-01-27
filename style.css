@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.content{
+    text-align: center;
+}
+.text{
+    margin-bottom: 100px;
+}
+.text p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+}
+@keyframes changecolor {
+    0%{
+        color:rgb(39, 134, 223)
+    }
+    25%{
+        color:rgb(0, 128, 92)
+    }
+    50%{
+        color: yellow;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: aqua;
+    }
+}
